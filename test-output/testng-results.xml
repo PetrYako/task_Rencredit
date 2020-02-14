@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-02-14T19:38:30 MSK" name="Tests" finished-at="2020-02-14T19:39:19 MSK" duration-ms="48783">
+    <groups>
+    </groups>
+    <test started-at="2020-02-14T19:38:30 MSK" name="Testing /contribution page" finished-at="2020-02-14T19:38:56 MSK" duration-ms="25492">
+      <class name="tests.test1.ContributionTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.test1.ContributionTest@74fe5c40]" started-at="2020-02-14T19:38:31 MSK" name="setUp" finished-at="2020-02-14T19:38:38 MSK" duration-ms="6979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.test1.ContributionTest@74fe5c40]" started-at="2020-02-14T19:38:38 MSK" name="beforeClass" finished-at="2020-02-14T19:38:38 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="openHomePage()[pri:0, instance:tests.test1.ContributionTest@74fe5c40]" started-at="2020-02-14T19:38:38 MSK" name="openHomePage" finished-at="2020-02-14T19:38:48 MSK" duration-ms="10617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method signature="redirectToContributions()[pri:0, instance:tests.test1.ContributionTest@74fe5c40]" started-at="2020-02-14T19:38:48 MSK" name="redirectToContributions" finished-at="2020-02-14T19:38:54 MSK" depends-on-methods="tests.test1.ContributionTest.openHomePage" duration-ms="6202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirectToContributions -->
+        <test-method signature="changeDepositCheckbox()[pri:0, instance:tests.test1.ContributionTest@74fe5c40]" started-at="2020-02-14T19:38:54 MSK" name="changeDepositCheckbox" finished-at="2020-02-14T19:38:55 MSK" depends-on-methods="tests.test1.ContributionTest.redirectToContributions" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeDepositCheckbox -->
+        <test-method signature="changeAmountOfDeposit()[pri:0, instance:tests.test1.ContributionTest@74fe5c40]" started-at="2020-02-14T19:38:55 MSK" name="changeAmountOfDeposit" finished-at="2020-02-14T19:38:55 MSK" depends-on-methods="tests.test1.ContributionTest.changeDepositCheckbox" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeAmountOfDeposit -->
+        <test-method signature="changePeriodSlider()[pri:0, instance:tests.test1.ContributionTest@74fe5c40]" started-at="2020-02-14T19:38:55 MSK" name="changePeriodSlider" finished-at="2020-02-14T19:38:55 MSK" depends-on-methods="tests.test1.ContributionTest.changeAmountOfDeposit" duration-ms="627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePeriodSlider -->
+        <test-method signature="getTermsDocument()[pri:0, instance:tests.test1.ContributionTest@74fe5c40]" started-at="2020-02-14T19:38:55 MSK" name="getTermsDocument" finished-at="2020-02-14T19:38:56 MSK" depends-on-methods="tests.test1.ContributionTest.changePeriodSlider" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTermsDocument -->
+      </class> <!-- tests.test1.ContributionTest -->
+    </test> <!-- Testing /contribution page -->
+    <test started-at="2020-02-14T19:38:56 MSK" name="Testing /card page" finished-at="2020-02-14T19:39:19 MSK" duration-ms="23150">
+      <class name="tests.test2.CardTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.test2.CardTest@3023df74]" started-at="2020-02-14T19:38:56 MSK" name="setUp" finished-at="2020-02-14T19:39:02 MSK" duration-ms="6370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.test2.CardTest@3023df74]" started-at="2020-02-14T19:39:02 MSK" name="beforeClass" finished-at="2020-02-14T19:39:02 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="openHomePage()[pri:0, instance:tests.test2.CardTest@3023df74]" started-at="2020-02-14T19:39:02 MSK" name="openHomePage" finished-at="2020-02-14T19:39:12 MSK" duration-ms="9947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method signature="goToCard()[pri:0, instance:tests.test2.CardTest@3023df74]" started-at="2020-02-14T19:39:12 MSK" name="goToCard" finished-at="2020-02-14T19:39:17 MSK" depends-on-methods="tests.test2.CardTest.openHomePage" duration-ms="4711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToCard -->
+        <test-method signature="fill_firstName_phoneNumber_email()[pri:0, instance:tests.test2.CardTest@3023df74]" started-at="2020-02-14T19:39:17 MSK" name="fill_firstName_phoneNumber_email" finished-at="2020-02-14T19:39:19 MSK" depends-on-methods="tests.test2.CardTest.goToCard" duration-ms="1365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fill_firstName_phoneNumber_email -->
+        <test-method signature="chooseSecondNameCheckBox()[pri:0, instance:tests.test2.CardTest@3023df74]" started-at="2020-02-14T19:39:19 MSK" name="chooseSecondNameCheckBox" finished-at="2020-02-14T19:39:19 MSK" depends-on-methods="tests.test2.CardTest.fill_firstName_phoneNumber_email" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseSecondNameCheckBox -->
+        <test-method signature="selectCreditRegion()[pri:0, instance:tests.test2.CardTest@3023df74]" started-at="2020-02-14T19:39:19 MSK" name="selectCreditRegion" finished-at="2020-02-14T19:39:19 MSK" depends-on-methods="tests.test2.CardTest.chooseSecondNameCheckBox" duration-ms="553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCreditRegion -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.test2.CardTest@3023df74]" started-at="2020-02-14T19:39:19 MSK" name="close" finished-at="2020-02-14T19:39:20 MSK" duration-ms="969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.test2.CardTest -->
+    </test> <!-- Testing /card page -->
+  </suite> <!-- Tests -->
+</testng-results>

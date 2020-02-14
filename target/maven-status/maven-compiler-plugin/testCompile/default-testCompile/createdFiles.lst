@@ -1,0 +1,6 @@
+config\TestConfig.class
+tests\test2\CardTest.class
+pages\HomePage.class
+pages\CardPage.class
+tests\test1\ContributionTest.class
+pages\ContributionPage.class

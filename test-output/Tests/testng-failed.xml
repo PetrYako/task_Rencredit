@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Tests]" guice-stage="DEVELOPMENT" verbose="5">
+  <test thread-count="5" name="Testing /contribution page(failed)" verbose="5">
+    <classes>
+      <class name="tests.test1.ContributionTest">
+        <methods>
+          <include name="close"/>
+          <include name="changePeriodSlider"/>
+          <include name="changeDepositCheckbox"/>
+          <include name="redirectToContributions"/>
+          <include name="getTermsDocument"/>
+          <include name="openHomePage"/>
+          <include name="setUp"/>
+          <include name="changeAmountOfDeposit"/>
+        </methods>
+      </class> <!-- tests.test1.ContributionTest -->
+    </classes>
+  </test> <!-- Testing /contribution page(failed) -->
+  <test thread-count="5" name="Testing /card page(failed)" verbose="5">
+    <classes>
+      <class name="tests.test2.CardTest">
+        <methods>
+          <include name="close"/>
+          <include name="goToCard"/>
+          <include name="chooseSecondNameCheckBox"/>
+          <include name="selectCreditRegion"/>
+          <include name="openHomePage"/>
+          <include name="setUp"/>
+          <include name="fill_firstName_phoneNumber_email"/>
+        </methods>
+      </class> <!-- tests.test2.CardTest -->
+    </classes>
+  </test> <!-- Testing /card page(failed) -->
+</suite> <!-- Failed suite [Tests] -->

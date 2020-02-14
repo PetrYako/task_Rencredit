@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-02-14T17:41:43Z" name="Surefire suite" finished-at="2020-02-14T17:42:57Z" duration-ms="74690">
+    <groups>
+    </groups>
+    <test started-at="2020-02-14T17:41:43Z" name="Surefire test" finished-at="2020-02-14T17:41:43Z" duration-ms="27">
+    </test> <!-- Surefire test -->
+    <test started-at="2020-02-14T17:41:43Z" name="Тестирование вкладки &quot;Вклад&quot;" finished-at="2020-02-14T17:42:19Z" duration-ms="36014">
+      <class name="tests.test1.ContributionTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.test1.ContributionTest@d02f8d]" started-at="2020-02-14T17:41:43Z" name="setUp" test-instance-name="Тестирование вкладки &quot;Вклад&quot;" finished-at="2020-02-14T17:41:51Z" duration-ms="8159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.test1.ContributionTest@d02f8d]" started-at="2020-02-14T17:41:51Z" name="beforeClass" test-instance-name="Тестирование вкладки &quot;Вклад&quot;" finished-at="2020-02-14T17:41:51Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="openHomePage()[pri:0, instance:tests.test1.ContributionTest@d02f8d]" started-at="2020-02-14T17:41:51Z" name="openHomePage" description="Открыть сайт rencredit.ru" test-instance-name="Тестирование вкладки &quot;Вклад&quot;" finished-at="2020-02-14T17:42:04Z" duration-ms="13391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method signature="redirectToContributions()[pri:0, instance:tests.test1.ContributionTest@d02f8d]" started-at="2020-02-14T17:42:05Z" name="redirectToContributions" description="Перейти на страницу &quot;Вклад&quot;" test-instance-name="Тестирование вкладки &quot;Вклад&quot;" finished-at="2020-02-14T17:42:16Z" depends-on-methods="tests.test1.ContributionTest.openHomePage" duration-ms="11272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirectToContributions -->
+        <test-method signature="changeDepositCheckbox()[pri:0, instance:tests.test1.ContributionTest@d02f8d]" started-at="2020-02-14T17:42:16Z" name="changeDepositCheckbox" description="Поменять чекбокс &quot;Открытие вклада&quot;" test-instance-name="Тестирование вкладки &quot;Вклад&quot;" finished-at="2020-02-14T17:42:16Z" depends-on-methods="tests.test1.ContributionTest.redirectToContributions" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeDepositCheckbox -->
+        <test-method signature="changeAmountOfDeposit()[pri:0, instance:tests.test1.ContributionTest@d02f8d]" started-at="2020-02-14T17:42:16Z" name="changeAmountOfDeposit" description="Ввести сумму вклада" test-instance-name="Тестирование вкладки &quot;Вклад&quot;" finished-at="2020-02-14T17:42:16Z" depends-on-methods="tests.test1.ContributionTest.changeDepositCheckbox" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeAmountOfDeposit -->
+        <test-method signature="changePeriodSlider()[pri:0, instance:tests.test1.ContributionTest@d02f8d]" started-at="2020-02-14T17:42:16Z" name="changePeriodSlider" description="Передвинуть ползунок &quot;На срок&quot;" test-instance-name="Тестирование вкладки &quot;Вклад&quot;" finished-at="2020-02-14T17:42:17Z" depends-on-methods="tests.test1.ContributionTest.changeAmountOfDeposit" duration-ms="592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePeriodSlider -->
+        <test-method signature="getTermsDocument()[pri:0, instance:tests.test1.ContributionTest@d02f8d]" started-at="2020-02-14T17:42:17Z" name="getTermsDocument" description="Выгрузить Печатную Форму &quot;Общие условия по вкладам&quot;" test-instance-name="Тестирование вкладки &quot;Вклад&quot;" finished-at="2020-02-14T17:42:18Z" depends-on-methods="tests.test1.ContributionTest.changePeriodSlider" duration-ms="542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTermsDocument -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.test1.ContributionTest@d02f8d]" started-at="2020-02-14T17:42:18Z" name="close" test-instance-name="Тестирование вкладки &quot;Вклад&quot;" finished-at="2020-02-14T17:42:19Z" duration-ms="1259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.test1.ContributionTest -->
+    </test> <!-- Тестирование вкладки "Вклад" -->
+    <test started-at="2020-02-14T17:42:19Z" name="Тестирование вкладки &quot;Карта&quot;" finished-at="2020-02-14T17:42:57Z" duration-ms="38321">
+      <class name="tests.test2.CardTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.test2.CardTest@3e134896]" started-at="2020-02-14T17:42:19Z" name="setUp" test-instance-name="Тестирование вкладки &quot;Карта&quot;" finished-at="2020-02-14T17:42:25Z" duration-ms="5730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="openHomePage()[pri:0, instance:tests.test2.CardTest@3e134896]" started-at="2020-02-14T17:42:25Z" name="openHomePage" description="Открыть сайт rencredit.ru" test-instance-name="Тестирование вкладки &quot;Карта&quot;" finished-at="2020-02-14T17:42:39Z" duration-ms="14507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.test2.CardTest@3e134896]" started-at="2020-02-14T17:42:25Z" name="beforeClass" test-instance-name="Тестирование вкладки &quot;Карта&quot;" finished-at="2020-02-14T17:42:25Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="goToCard()[pri:0, instance:tests.test2.CardTest@3e134896]" started-at="2020-02-14T17:42:39Z" name="goToCard" description="Перейти на страницу &quot;Карта&quot;" test-instance-name="Тестирование вкладки &quot;Карта&quot;" finished-at="2020-02-14T17:42:54Z" depends-on-methods="tests.test2.CardTest.openHomePage" duration-ms="15116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToCard -->
+        <test-method signature="fill_firstName_phoneNumber_email()[pri:0, instance:tests.test2.CardTest@3e134896]" started-at="2020-02-14T17:42:54Z" name="fill_firstName_phoneNumber_email" description="Ввести в поля &quot;Фамилия&quot;, &quot;Имя&quot;, &quot;Мобильный телефон&quot;, &quot;e-mail&quot; значения" test-instance-name="Тестирование вкладки &quot;Карта&quot;" finished-at="2020-02-14T17:42:56Z" depends-on-methods="tests.test2.CardTest.goToCard" duration-ms="1314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fill_firstName_phoneNumber_email -->
+        <test-method signature="chooseSecondNameCheckBox()[pri:0, instance:tests.test2.CardTest@3e134896]" started-at="2020-02-14T17:42:56Z" name="chooseSecondNameCheckBox" description="Выбрать чекбокс &quot;Нет отчества&quot;" test-instance-name="Тестирование вкладки &quot;Карта&quot;" finished-at="2020-02-14T17:42:56Z" depends-on-methods="tests.test2.CardTest.fill_firstName_phoneNumber_email" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseSecondNameCheckBox -->
+        <test-method signature="selectCreditRegion()[pri:0, instance:tests.test2.CardTest@3e134896]" started-at="2020-02-14T17:42:56Z" name="selectCreditRegion" description="Выбрать значение из выпадающего списка&quot;Где вы желаете получить карту&quot;" test-instance-name="Тестирование вкладки &quot;Карта&quot;" finished-at="2020-02-14T17:42:56Z" depends-on-methods="tests.test2.CardTest.chooseSecondNameCheckBox" duration-ms="588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCreditRegion -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.test2.CardTest@3e134896]" started-at="2020-02-14T17:42:56Z" name="close" test-instance-name="Тестирование вкладки &quot;Карта&quot;" finished-at="2020-02-14T17:42:57Z" duration-ms="884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.test2.CardTest -->
+    </test> <!-- Тестирование вкладки "Карта" -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

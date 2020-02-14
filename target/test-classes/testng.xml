@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Tests" verbose="5">
+    <test name="Testing /contribution page" >
+        <classes>
+            <class name="tests.test1.ContributionTest"/>
+        </classes>
+    </test>
+
+    <test name="Testing /card page">
+        <classes>
+            <class name="tests.test2.CardTest"/>
+        </classes>
+    </test>
+</suite>
