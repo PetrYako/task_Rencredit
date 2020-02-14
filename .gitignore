@@ -1,2 +1,4 @@
 /.idea/
 /ru.taskRencredit.iml
+/target/
+/allure-results/
